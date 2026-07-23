@@ -47,7 +47,7 @@ section{
 
 .hero img,
 section img{
-    width:40%;
+    width:30%;
     max-height:500px;
     object-fit:cover;
     border-radius:10px;
