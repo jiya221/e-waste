@@ -53,13 +53,26 @@ section img{
     border-radius:10px;
 }
 
-.recycle img
-section img{
+.recycle img{
     width:20%;
     max-height:500px;
     object-fit:cover;
     border-radius:10px;
 }
+
+
+.hero,
+.recycle{
+    text-align:center;
+}
+
+.hero img,
+.recycle img,
+section img{
+    display:block;
+    margin:20px auto;
+}
+
 
 h2{
     color:#2e7d32;
@@ -80,11 +93,25 @@ p{
 .card{
     background:white;
     padding:20px;
-    text-align:center;
     border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,.1);
-    font-size:18px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+    transition:.3s;
 }
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+
+.fact{
+    background:#e8f5e9;
+    border-left:6px solid #2e7d32;
+    padding:20px;
+    border-radius:8px;
+    margin:30px auto;
+}
+
 
 ul{
     padding-left:20px;
